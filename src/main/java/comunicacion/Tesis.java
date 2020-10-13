@@ -22,7 +22,7 @@ public class Tesis extends Escrito {
 	}
 
 	@Override
-	String interpretacion() {
+	public String interpretacion() {
 		String retorno=this.getOrigen()+"\n"+
 				   this.getTitulo()+"\n"+
 				   this.getAutor()+"\n"+
