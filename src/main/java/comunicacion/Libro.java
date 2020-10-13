@@ -29,6 +29,7 @@ public class Libro extends Escrito {
 	public String toString() {
 		String retorno=this.getOrigen()+"\n"+
 					   this.getTitulo()+"\n"+
+					   this.getAutor()+"\n"+
 					   this.getPaginas()+"\n"+
 					   this.co_autor+"\n"+
 					   this.editorial+"\n"+
